@@ -220,3 +220,7 @@ docker-compose build app && docker-compose up -d
     git remote add origin https://github.com/nathdiptanu/flask-otel-grafana-demo.git
     git branch -M main
     git push -u origin main
+
+
+
+![img.png](img.png)
