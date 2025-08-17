@@ -17,7 +17,7 @@ This project demonstrates **end-to-end observability** for a Flask app using:
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/flask-otel-grafana-demo.git
+git clone https://github.com/nathdiptanu/flask-otel-grafana-demo.git
 cd flask-otel-grafana-demo
 ```
 
@@ -206,3 +206,17 @@ docker-compose build app && docker-compose up -d
     docker logs -f flask-app  
     docker-compose down -v    
     docker-compose up --build 
+
+
+
+    echo "# flask-otel-grafana-demo" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/nathdiptanu/flask-otel-grafana-demo.git
+    git push -u origin main
+    …or push an existing repository from the command line
+    git remote add origin https://github.com/nathdiptanu/flask-otel-grafana-demo.git
+    git branch -M main
+    git push -u origin main
